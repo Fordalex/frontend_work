@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+
+
+:root {
+    --background: #fef8ec;
+}
+
+body {
+    background-color:var(--background) ;
+}
+
+.p-1 {
+    padding: 1.5em;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+}
+
+p {
+    
+}
+
+.page-container {
+    padding: 1em;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.input-style label {
+    color: #1e7e9e;
+    font-weight: 600;
+    display: block;
+    margin-top: 30px;
+}
+
+.input-style input {
+    border: none;
+    width: 100%;
+    background-color: var(--background);
+}
+
+.hr {
+    background-color: #a8a49c;
+}
+
+#errorContainer {
+    color: red;
+}
+
+#buttonContainer {
+    position: fixed;
+    bottom: 15px;
+    left: 0;
+    right: 0;
+    padding: 1em;
+}
+
+.button {
+    background-color: #f0ece1;
+    color: #99a1a9;
+    border: solid 1px #bdbabb;
+    width: 100%;
+    border-radius: 25px;
+    padding: 1em;
+    font-weight:600 ;
+}
+
+.button:focus {
+    outline: none;
+    background-color: #f0b931;
+    color: #f5f7f0;
+    border:#f0b931 solid 1px ;
+}
