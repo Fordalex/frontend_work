@@ -1,11 +1,12 @@
+// Submitting the registration form
 var registerForm = document.getElementById('registerForm');
 
 function registerUser(e) {
+    e.preventDefault();
+
     var passwordOne = document.getElementById('passwordOne').value;
     var passwordTwo = document.getElementById('passwordTwo').value;
     var errorContainer = document.getElementById('errorContainer');
-
-    e.preventDefault();
     errorContainer.innerHTML= '';
 
     if (passwordOne !== passwordTwo) {
