@@ -1,0 +1,75 @@
+/* dry */
+
+.justify-content-center {
+    display: flex;
+    justify-content: center;
+}
+
+.justify-content-around {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* index */
+
+.page-container {
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 100vh;
+}
+
+.page-container div:first-child {
+    background: linear-gradient(rgb(98, 174, 224), rgb(88, 163, 212));
+    padding: 1em;
+    color: white;
+}
+
+.sign-up-container {
+    padding: 3em 5em;
+}
+
+.input-wrapper {
+    margin: 15px 0;
+}
+
+.input-wrapper label {
+    display: block;
+    font-weight: 700;
+}
+
+.input-wrapper input {
+    border: solid 1px rgb(204, 204, 204);
+    border-radius: 3px;
+    width: 100%;
+    padding: 0.5em;
+}
+
+.button-create-account {
+    background-color: rgb(75, 117, 255);
+    border: none;
+    color: white;
+    border-radius: 7px;
+    padding: 1em;
+    width: 100%;
+    margin-top: 1em;
+}
+
+#or::after, #or::before {
+    content: "";
+    display: inline-block;
+    width: 15px;
+    height: 1px;
+    background-color: rgb(172, 172, 172);
+    margin: 3px;
+}
+
+#googleButton {
+    padding: 1em;
+    border: solid rgb(199, 199, 199) 1px;
+    border-radius: 7px;
+    background-color: white;
+}
+
+#errorContainer {
+    color: red;
+}
